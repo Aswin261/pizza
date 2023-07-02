@@ -1,0 +1,12 @@
+body {
+  margin: 25;
+  font-family: -apple-system, BlinkMacSystemFont, 'Arial';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 80px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
