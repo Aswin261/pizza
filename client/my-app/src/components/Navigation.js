@@ -35,6 +35,12 @@ class Navigation extends Component {
       <div>
         <Routes>
         <Route path="/" element={<Home/>} />
+        {/* <Route path="/" element={
+                <>
+                  <Navigation />
+                  <Home />
+                </>
+              } /> */}
         <Route path="/BuildPizza" element={<BuildPizza/>} />
         <Route path="/OrderPizza" element={<OrderPizza/>} />
         <Route path="/ShoppingCart" element={<ShoppingCart/>}/>

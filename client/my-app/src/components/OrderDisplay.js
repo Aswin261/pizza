@@ -26,7 +26,7 @@ function OrderDisplay({ data, number }) {
     return (
        
         <div class={dispaly}>
-            <div class="card " style={{ height: "380px", borderStyle: "outset" }} >
+            <div class="card " style={{ height: "380px", borderStyle: "outset",marginRight:'10px' }} >
                 <div class="card-body">
                     <div style={{ width: "80px",marginTop:"10px" }}>
                         <p><strong>{data.name}</strong></p>
@@ -38,7 +38,7 @@ function OrderDisplay({ data, number }) {
                         <p>{data.description}</p>
                         <p><strong>Ingredients:</strong>{data.ingredients.toString()}.</p>
                         <p><strong>Toppings:</strong>{data.topping.toString()}.</p>
-                        <img src={data.image} alt="pizza img" style={{ width: "130px", heigth: "130px", marginLeft: "250px", marginTop: "-400px" }}></img>
+                        <img src={data.image} alt="pizza img" style={{ width: "130px", heigth: "130px", marginLeft: "250px", marginTop: "-400px"}}></img>
                         <button   onClick={(e)=>{handleInput(data)}} class="btn btn-warning btn-sm"  type="submit" style={{ color: "white", marginLeft: "265px", width: "100px", marginTop: "-230px" }}  >{buttonText}</button>
                     </div>
                     

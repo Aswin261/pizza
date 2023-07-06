@@ -23,10 +23,10 @@ function DisplayCart(props) {
         <div>
             <div className='plus-minus'>
                 <button onClick={() => decCount(props.price)} style={{ border: "none" }} type="submit"><AiOutlineMinus /></button><input type="text" value={count} style={{ width: "60px", textAlign: "center" }}></input>
-                <button onClick={() => addCount(props.price)} style={{ border: "none" }} ><AiOutlinePlus /></button>
+                <button onClick={() => addCount(props.price)} style={{ border: "none" }}><AiOutlinePlus /></button>
             </div>
             <div className='price' >
-                            <p><strong>Rs.{props.price * count}</strong></p>
+                            <p><strong>Rupees.{props.price * count}</strong></p>
             </div>
         </div>
     )
