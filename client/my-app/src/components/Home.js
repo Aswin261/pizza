@@ -88,7 +88,7 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <div class="copyright">
-                    <center><p style={{ color:"yellow" }}><i>Copyrights @ 2022 Pizzeria. All rights reserved</i></p></center>
+                    <center><p style={{ color:"orange" }}><i>Copyrights @ 2022 Pizzeria. All rights reserved</i></p></center>
                 </div>
             </div>
     </div>
